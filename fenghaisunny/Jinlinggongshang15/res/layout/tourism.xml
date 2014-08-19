@@ -1,0 +1,525 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/app"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/main"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_marginTop="0dip"
+        android:orientation="horizontal" >
+
+        <com.baoji.jinlinggongshang.util.LockableHorizontalScrollView
+            android:id="@+id/ScrollView"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:scrollbars="none" >
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:orientation="horizontal" >
+
+                <LinearLayout
+                    android:id="@+id/list_views"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:clickable="true"
+                    android:orientation="vertical" >
+
+                    <include layout="@layout/title_bar"/>
+
+                    <ScrollView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                       >
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical"
+                            android:paddingBottom="10dip"
+                            android:paddingTop="10dip" >
+
+                            <RelativeLayout
+                                android:id="@+id/famensi"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="10dip"
+                                android:layout_marginRight="10dip"
+                                android:layout_marginTop="8dip"
+                                android:background="@drawable/folklist_red_selector"
+                                android:clickable="true"
+                                android:focusable="true" >
+
+                                <TextView
+                                    android:id="@+id/tv_famensi"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginLeft="20dip"
+                                    android:layout_marginTop="10dip"
+                                    android:clickable="true"
+                                    android:duplicateParentState="true"
+                                    android:focusable="false"
+                                    android:text="法门寺"
+                                    android:textColor="@drawable/textcolor_selector"
+                                    android:textSize="17dip" />
+
+                                <TextView
+                                    android:id="@+id/tv_famensi_en"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_below="@id/tv_famensi"
+                                    android:layout_marginLeft="20dip"
+                                    android:layout_marginTop="5dip"
+                                    android:clickable="true"
+                                    android:duplicateParentState="true"
+                                    android:focusable="false"
+                                    android:text="Famen Temple"
+                                    android:textColor="@drawable/textcolor_selector"
+                                    android:textSize="14dip" />
+
+                                <ImageView
+                                    android:id="@+id/famensi_next"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_alignParentRight="true"
+                                    android:layout_centerVertical="true"
+                                    android:layout_marginRight="20dip"
+                                    android:duplicateParentState="true"
+                                    android:src="@drawable/folklistnext_selector" />
+                            </RelativeLayout>
+
+                            <RelativeLayout
+                                android:id="@+id/honghegu"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="10dip"
+                                android:layout_marginRight="10dip"
+                                android:layout_marginTop="8dip"
+                                android:background="@drawable/folklist_orange_selector"
+                                android:clickable="true"
+                                android:focusable="true" >
+
+                                <TextView
+                                    android:id="@+id/tv_honghegu"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginLeft="20dip"
+                                    android:layout_marginTop="10dip"
+                                    android:clickable="true"
+                                    android:duplicateParentState="true"
+                                    android:focusable="false"
+                                    android:text="红河谷森林公园"
+                                    android:textColor="@drawable/textcolor_selector"
+                                    android:textSize="17dip" />
+
+                                <TextView
+                                    android:id="@+id/tv_honghegu_en"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_below="@id/tv_honghegu"
+                                    android:layout_marginLeft="20dip"
+                                    android:layout_marginTop="5dip"
+                                    android:clickable="true"
+                                    android:duplicateParentState="true"
+                                    android:focusable="false"
+                                    android:text="Red River Valley of Forest Park"
+                                    android:textColor="@drawable/textcolor_selector"
+                                    android:textSize="14dip" />
+
+                                <ImageView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_alignParentRight="true"
+                                    android:layout_centerVertical="true"
+                                    android:layout_marginRight="20dip"
+                                    android:clickable="true"
+                                    android:duplicateParentState="true"
+                                    android:focusable="false"
+                                    android:src="@drawable/folklistnext_selector" />
+                            </RelativeLayout>
+
+                            <RelativeLayout
+                                android:id="@+id/yuntaishan"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="10dip"
+                                android:layout_marginRight="10dip"
+                                android:layout_marginTop="8dip"
+                                android:background="@drawable/folklist_red_selector"
+                                android:clickable="true"
+                                android:focusable="true" >
+
+                                <TextView
+                                    android:id="@+id/tv_yuntaishan"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginLeft="20dip"
+                                    android:layout_marginTop="10dip"
+                                    android:clickable="true"
+                                    android:duplicateParentState="true"
+                                    android:focusable="false"
+                                    android:text="云台山"
+                                    android:textColor="@drawable/textcolor_selector"
+                                    android:textSize="17dip" />
+
+                                <TextView
+                                    android:id="@+id/tv_yuntaishan_en"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_below="@id/tv_yuntaishan"
+                                    android:layout_marginLeft="20dip"
+                                    android:layout_marginTop="5dip"
+                                    android:clickable="true"
+                                    android:duplicateParentState="true"
+                                    android:focusable="false"
+                                    android:text="Yuntai Mountain"
+                                    android:textColor="@drawable/textcolor_selector"
+                                    android:textSize="14dip" />
+
+                                <ImageView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_alignParentRight="true"
+                                    android:layout_centerVertical="true"
+                                    android:layout_marginRight="20dip"
+                                    android:clickable="true"
+                                    android:duplicateParentState="true"
+                                    android:focusable="false"
+                                    android:src="@drawable/folklistnext_selector" />
+                            </RelativeLayout>
+
+                            <RelativeLayout
+                                android:id="@+id/jialingjiang"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="10dip"
+                                android:layout_marginRight="10dip"
+                                android:layout_marginTop="8dip"
+                                android:background="@drawable/folklist_blue_selector"
+                                android:clickable="true"
+                                android:focusable="true" >
+
+                                <TextView
+                                    android:id="@+id/tv_jialingjiang"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginLeft="20dip"
+                                    android:layout_marginTop="10dip"
+                                    android:clickable="true"
+                                    android:duplicateParentState="true"
+                                    android:focusable="false"
+                                    android:text="嘉陵江源头"
+                                    android:textColor="@drawable/textcolor_selector"
+                                    android:textSize="17dip" />
+
+                                <TextView
+                                    android:id="@+id/tv_jialingjiang_en"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_below="@id/tv_jialingjiang"
+                                    android:layout_marginLeft="20dip"
+                                    android:layout_marginTop="5dip"
+                                    android:clickable="true"
+                                    android:duplicateParentState="true"
+                                    android:focusable="false"
+                                    android:text="Jialing River source"
+                                    android:textColor="@drawable/textcolor_selector"
+                                    android:textSize="14dip" />
+
+                                <ImageView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_alignParentRight="true"
+                                    android:layout_centerVertical="true"
+                                    android:layout_marginRight="20dip"
+                                    android:clickable="true"
+                                    android:duplicateParentState="true"
+                                    android:focusable="false"
+                                    android:src="@drawable/folklistnext_selector" />
+                            </RelativeLayout>
+
+                            <RelativeLayout
+                                android:id="@+id/wuzhangyuan"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="10dip"
+                                android:layout_marginRight="10dip"
+                                android:layout_marginTop="8dip"
+                                android:background="@drawable/folklist_red_selector"
+                                android:clickable="true"
+                                android:focusable="true" >
+
+                                <TextView
+                                    android:id="@+id/tv_wuzhangyuan"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginLeft="20dip"
+                                    android:layout_marginTop="10dip"
+                                    android:clickable="true"
+                                    android:duplicateParentState="true"
+                                    android:focusable="false"
+                                    android:text="五丈原诸葛亮庙"
+                                    android:textColor="@drawable/textcolor_selector"
+                                    android:textSize="17dip" />
+
+                                <TextView
+                                    android:id="@+id/tv_wuzhangyuan_en"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_below="@id/tv_wuzhangyuan"
+                                    android:layout_marginLeft="20dip"
+                                    android:layout_marginTop="5dip"
+                                    android:clickable="true"
+                                    android:duplicateParentState="true"
+                                    android:focusable="false"
+                                    android:text="The five original Zhu Geliang Temple"
+                                    android:textColor="@drawable/textcolor_selector"
+                                    android:textSize="14dip" />
+
+                                <ImageView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_alignParentRight="true"
+                                    android:layout_centerVertical="true"
+                                    android:layout_marginRight="20dip"
+                                    android:clickable="true"
+                                    android:duplicateParentState="true"
+                                    android:focusable="false"
+                                    android:src="@drawable/folklistnext_selector" />
+                            </RelativeLayout>
+
+                            <RelativeLayout
+                                android:id="@+id/zhougongmiao"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="10dip"
+                                android:layout_marginRight="10dip"
+                                android:layout_marginTop="8dip"
+                                android:background="@drawable/folklist_orange_selector"
+                                android:clickable="true"
+                                android:focusable="true" >
+
+                                <TextView
+                                    android:id="@+id/tv_zhougongmiao"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginLeft="20dip"
+                                    android:layout_marginTop="10dip"
+                                    android:clickable="true"
+                                    android:duplicateParentState="true"
+                                    android:focusable="false"
+                                    android:text="岐山周公庙"
+                                    android:textColor="@drawable/textcolor_selector"
+                                    android:textSize="17dip" />
+
+                                <TextView
+                                    android:id="@+id/tv_zhougongmiao_en"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_below="@id/tv_zhougongmiao"
+                                    android:layout_marginLeft="20dip"
+                                    android:layout_marginTop="5dip"
+                                    android:clickable="true"
+                                    android:duplicateParentState="true"
+                                    android:focusable="false"
+                                    android:text="Qishan Zhou Gong Temple"
+                                    android:textColor="@drawable/textcolor_selector"
+                                    android:textSize="14dip" />
+
+                                <ImageView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_alignParentRight="true"
+                                    android:layout_centerVertical="true"
+                                    android:layout_marginRight="20dip"
+                                    android:clickable="true"
+                                    android:duplicateParentState="true"
+                                    android:focusable="false"
+                                    android:src="@drawable/folklistnext_selector" />
+                            </RelativeLayout>
+
+                            <RelativeLayout
+                                android:id="@+id/fengxian"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="10dip"
+                                android:layout_marginRight="10dip"
+                                android:layout_marginTop="8dip"
+                                android:background="@drawable/folklist_blue_selector"
+                                android:clickable="true"
+                                android:focusable="true" >
+
+                                <TextView
+                                    android:id="@+id/tv_fengxian"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginLeft="20dip"
+                                    android:layout_marginTop="10dip"
+                                    android:clickable="true"
+                                    android:duplicateParentState="true"
+                                    android:focusable="false"
+                                    android:text="凤县"
+                                    android:textColor="@drawable/textcolor_selector"
+                                    android:textSize="17dip" />
+
+                                <TextView
+                                    android:id="@+id/tv_fengxian_en"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_below="@id/tv_fengxian"
+                                    android:layout_marginLeft="20dip"
+                                    android:layout_marginTop="5dip"
+                                    android:clickable="true"
+                                    android:duplicateParentState="true"
+                                    android:focusable="false"
+                                    android:text="Fengxian"
+                                    android:textColor="@drawable/textcolor_selector"
+                                    android:textSize="14dip" />
+
+                                <ImageView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_alignParentRight="true"
+                                    android:layout_centerVertical="true"
+                                    android:layout_marginRight="20dip"
+                                    android:clickable="true"
+                                    android:duplicateParentState="true"
+                                    android:focusable="false"
+                                    android:src="@drawable/folklistnext_selector" />
+                            </RelativeLayout>
+
+                            <RelativeLayout
+                                android:id="@+id/guanshan"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="10dip"
+                                android:layout_marginRight="10dip"
+                                android:layout_marginTop="8dip"
+                                android:background="@drawable/folklist_blue_selector"
+                                android:clickable="true"
+                                android:focusable="true" >
+
+                                <TextView
+                                    android:id="@+id/tv_guanshan"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginLeft="20dip"
+                                    android:layout_marginTop="10dip"
+                                    android:clickable="true"
+                                    android:duplicateParentState="true"
+                                    android:focusable="false"
+                                    android:text="关山牧场"
+                                    android:textColor="@drawable/textcolor_selector"
+                                    android:textSize="17dip" />
+
+                                <TextView
+                                    android:id="@+id/tv_guanshan_en"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_below="@id/tv_guanshan"
+                                    android:layout_marginLeft="20dip"
+                                    android:layout_marginTop="5dip"
+                                    android:clickable="true"
+                                    android:duplicateParentState="true"
+                                    android:focusable="false"
+                                    android:text="Guanshan Ranch"
+                                    android:textColor="@drawable/textcolor_selector"
+                                    android:textSize="14dip" />
+
+                                <ImageView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_alignParentRight="true"
+                                    android:layout_centerVertical="true"
+                                    android:layout_marginRight="20dip"
+                                    android:clickable="true"
+                                    android:duplicateParentState="true"
+                                    android:focusable="false"
+                                    android:src="@drawable/folklistnext_selector" />
+                            </RelativeLayout>
+
+                            <RelativeLayout
+                                android:id="@+id/jiangziya"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="10dip"
+                                android:layout_marginRight="10dip"
+                                android:layout_marginTop="8dip"
+                                android:background="@drawable/folklist_blue_selector"
+                                android:clickable="true"
+                                android:focusable="true" >
+
+                                <TextView
+                                    android:id="@+id/tv_jiangziya"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginLeft="20dip"
+                                    android:layout_marginTop="10dip"
+                                    android:clickable="true"
+                                    android:duplicateParentState="true"
+                                    android:focusable="false"
+                                    android:text="姜子牙钓鱼台"
+                                    android:textColor="@drawable/textcolor_selector"
+                                    android:textSize="17dip" />
+
+                                <TextView
+                                    android:id="@+id/tv_jiangziya_en"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_below="@id/tv_jiangziya"
+                                    android:layout_marginLeft="20dip"
+                                    android:layout_marginTop="5dip"
+                                    android:clickable="true"
+                                    android:duplicateParentState="true"
+                                    android:focusable="false"
+                                    android:text="Jiang Ziya Islands"
+                                    android:textColor="@drawable/textcolor_selector"
+                                    android:textSize="14dip" />
+
+                                <ImageView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_alignParentRight="true"
+                                    android:layout_centerVertical="true"
+                                    android:layout_marginRight="20dip"
+                                    android:clickable="true"
+                                    android:duplicateParentState="true"
+                                    android:focusable="false"
+                                    android:src="@drawable/folklistnext_selector" />
+                            </RelativeLayout>
+                        </LinearLayout>
+                    </ScrollView>
+                </LinearLayout>
+
+                <include layout="@layout/slide_menu" />
+            </LinearLayout>
+        </com.baoji.jinlinggongshang.util.LockableHorizontalScrollView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/close_menu_linear"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_marginLeft="0dip"
+        android:layout_marginTop="0dip"
+        android:orientation="horizontal"
+        android:visibility="gone" >
+
+        <View
+            android:id="@+id/close_menu"
+            android:layout_width="65dip"
+            android:layout_height="fill_parent" >
+        </View>
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:clickable="false" >
+        </View>
+    </LinearLayout>
+
+</RelativeLayout>

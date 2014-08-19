@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <include layout="@layout/title_bar" 
+        android:id="@+id/titleBar"
+        android:layout_alignParentTop="true"/>
+
+    <RadioGroup
+        android:id="@+id/radioGroup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/titleBar"
+        android:orientation="vertical"
+        android:padding="10dip" >
+
+        <RadioButton
+            android:id="@+id/theme01"
+            android:checked="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="夕阳の沙滩"
+            android:textColor="@color/color_4" />
+
+        <RadioButton
+            android:id="@+id/theme02"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/color_4"
+            android:text="碧海蓝天" />
+
+        <RadioButton
+            android:id="@+id/theme03"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/color_4"
+            android:text="晶莹剔透"
+             />
+
+        <RadioButton
+            android:id="@+id/theme04"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/color_4"
+            android:text="希望の田野" />
+    </RadioGroup>
+
+</RelativeLayout>

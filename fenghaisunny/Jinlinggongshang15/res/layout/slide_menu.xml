@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/cate_menu"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/cate_menu_bg"
+    android:gravity="center_horizontal"
+    android:orientation="vertical" >
+
+    <ImageButton
+        android:layout_width="match_parent"
+        android:layout_height="5dip"
+        android:background="@drawable/slide_divider" />
+
+    <ImageButton
+        android:layout_width="match_parent"
+        android:layout_height="5dip"
+        android:layout_marginTop="2dip"
+        android:background="@drawable/slide_divider" />
+
+    <ImageButton
+        android:id="@+id/exit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dip"
+        android:background="@drawable/exit" />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="5dip"
+        android:layout_marginTop="20dip"
+        android:background="@drawable/ic_shelf_category_divider" />
+
+    <ImageButton
+        android:id="@+id/camera_sli"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dip"
+        android:background="@drawable/camera" />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="5dip"
+        android:layout_marginTop="20dip"
+        android:background="@drawable/ic_shelf_category_divider" />
+
+    <ImageButton
+        android:id="@+id/twodimen_sli"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dip"
+        android:background="@drawable/twodimen" />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="5dip"
+        android:layout_marginTop="20dip"
+        android:background="@drawable/ic_shelf_category_divider" />
+
+    <ImageButton
+        android:id="@+id/call_sli"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dip"
+        android:background="@drawable/call" />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="5dip"
+        android:layout_marginTop="20dip"
+        android:background="@drawable/ic_shelf_category_divider" />
+
+    <ImageButton
+        android:id="@+id/theme"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dip"
+        android:background="@drawable/theme" />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="5dip"
+        android:layout_marginTop="20dip"
+        android:background="@drawable/ic_shelf_category_divider" />
+
+    <ImageButton
+        android:layout_width="match_parent"
+        android:layout_height="5dip"
+        android:layout_marginTop="30dip"
+        android:background="@drawable/slide_divider" />
+
+    <ImageButton
+        android:layout_width="match_parent"
+        android:layout_height="5dip"
+        android:layout_marginTop="2dip"
+        android:background="@drawable/slide_divider" />
+
+</LinearLayout>

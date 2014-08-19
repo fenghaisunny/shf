@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content" >
+
+    <!-- 退出的背景图 -->
+
+    <RelativeLayout
+        android:id="@+id/exitGameBackground"
+        android:layout_width="500dip"
+        android:layout_height="200dip"
+        android:layout_centerInParent="true"
+        android:background="@drawable/gridview_bg" >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:paddingTop="20dip"
+                android:text="您真的要退出“魅力宝鸡”吗？"
+                android:textColor="@android:color/white"
+                android:textSize="16dip" />
+
+            <Button
+                android:id="@+id/btn_ok"
+                android:layout_width="80dip"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentRight="true"
+                android:layout_marginBottom="40dp"
+                android:layout_marginRight="40dip"
+                android:background="@drawable/btn_style_one_normal"
+                android:text="是的"
+                android:textColor="@android:color/white" />
+
+            <!-- 取消按钮 -->
+
+            <Button
+                android:id="@+id/btn_cancel"
+                android:layout_width="80dip"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentLeft="true"
+                android:layout_marginBottom="40dp"
+                android:layout_marginLeft="40dip"
+                android:background="@drawable/btn_style_two_normal"
+                android:text="不是" />
+        </RelativeLayout>
+    </RelativeLayout>
+
+</RelativeLayout>

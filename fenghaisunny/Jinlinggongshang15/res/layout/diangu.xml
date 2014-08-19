@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/app"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/main"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_marginTop="0dip"
+        android:orientation="horizontal" >
+
+        <com.baoji.jinlinggongshang.util.LockableHorizontalScrollView
+            android:id="@+id/ScrollView"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:scrollbars="none" >
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:orientation="horizontal" >
+
+                <LinearLayout
+                    android:id="@+id/list_views"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:clickable="true"
+                    android:orientation="vertical" >
+
+                    <include layout="@layout/title_bar" />
+
+                    <ScrollView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <RelativeLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:background="@drawable/about_greybg" >
+
+                            <ImageView
+                                android:id="@+id/diangudec_image"
+                                android:layout_width="500dip"
+                                android:layout_height="150dip"
+                                android:padding="10dip" />
+
+                            <TextView
+                                android:id="@+id/diangudec_tv"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_below="@id/diangudec_image"
+                                android:padding="10dip" />
+
+                            <LinearLayout
+                                android:id="@+id/httpmedia"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:paddingTop="20dip"
+                                android:layout_below="@id/diangudec_tv"
+                                android:layout_alignParentRight="true"
+                                android:orientation="vertical" >
+
+                                <RelativeLayout
+                                    android:id="@+id/getBuffer"
+                                    android:layout_width="120dip"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginRight="10dip"
+                                    android:layout_marginTop="10dip"
+                                    android:background="@drawable/voice_bg"
+                                    android:clickable="true" >
+
+                                    <ImageView
+                                        android:id="@+id/voice"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_alignParentLeft="true"
+                                        android:layout_centerVertical="true"
+                                        android:paddingLeft="5dip"
+                                        android:src="@drawable/voice" />
+
+                                    <TextView
+                                        android:id="@+id/play"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_centerVertical="true"
+                                        android:layout_toRightOf="@id/voice"
+                                        android:paddingLeft="5dip"
+                                        android:textColor="@android:color/white"
+                                        android:textSize="17dip"
+                                        android:textStyle="bold" />
+                                </RelativeLayout>
+
+                                <TextView
+                                    android:id="@+id/BufferValueTextView"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content" />
+                            </LinearLayout>
+                        </RelativeLayout>
+                    </ScrollView>
+                </LinearLayout>
+
+                <include layout="@layout/slide_menu" />
+            </LinearLayout>
+        </com.baoji.jinlinggongshang.util.LockableHorizontalScrollView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/close_menu_linear"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_marginLeft="0dip"
+        android:layout_marginTop="0dip"
+        android:orientation="horizontal"
+        android:visibility="gone" >
+
+        <View
+            android:id="@+id/close_menu"
+            android:layout_width="65dip"
+            android:layout_height="fill_parent" >
+        </View>
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:clickable="false" >
+        </View>
+    </LinearLayout>
+
+</RelativeLayout>

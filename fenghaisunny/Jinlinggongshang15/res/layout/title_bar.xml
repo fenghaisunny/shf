@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="50dip"
+    android:background="@android:color/white"
+    android:gravity="center_vertical" >
+
+    <ImageButton
+        android:id="@+id/back"
+        android:layout_width="30dip"
+        android:layout_height="30dip"
+        android:layout_centerVertical="true"
+        android:layout_marginBottom="5dip"
+        android:layout_marginLeft="10dip"
+        android:layout_marginRight="3.0dip"
+        android:background="@drawable/back_icon"
+        android:clickable="true"
+        android:gravity="center"
+        android:onClick="back" />
+
+    <TextView
+        android:id="@+id/titleBar_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:textColor="@android:color/black" />
+
+    <ImageView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_below="@id/back"
+        android:background="@drawable/divider1"
+        android:paddingTop="10dip" />
+
+    <ImageButton
+        android:id="@+id/category"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="10dip"
+        android:background="@drawable/ic_top_bar_category" />
+
+    <ImageButton
+        android:id="@+id/tuijian"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="10dip"
+        android:layout_toLeftOf="@id/category"
+        android:background="@drawable/tuijian"
+        android:visibility="gone" />
+
+</RelativeLayout>

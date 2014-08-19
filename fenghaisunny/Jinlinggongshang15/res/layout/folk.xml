@@ -1,0 +1,373 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/app"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/main"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_marginTop="0dip"
+        android:orientation="horizontal" >
+
+        <com.baoji.jinlinggongshang.util.LockableHorizontalScrollView
+            android:id="@+id/ScrollView"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:scrollbars="none" >
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:orientation="horizontal" >
+
+                <LinearLayout
+                    android:id="@+id/list_views"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:clickable="true"
+                    android:orientation="vertical"
+                     >
+
+                    <include layout="@layout/title_bar" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dip"
+                        android:orientation="vertical">
+
+                        <RelativeLayout
+                            android:id="@+id/miantiao"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="10dip"
+                            android:layout_marginRight="10dip"
+                            android:layout_marginTop="8dip"
+                            android:background="@drawable/folklist_red_selector"
+                            android:clickable="true"
+                            android:focusable="true" >
+
+                            <TextView
+                                android:id="@+id/tv_miantiao"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="20dip"
+                                android:layout_marginTop="10dip"
+                                android:text="面条像裤带"
+                                android:textColor="@drawable/textcolor_selector"
+                                android:textSize="17dip" />
+
+                            <TextView
+                                android:id="@+id/tv_miantiao_en"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_below="@id/tv_miantiao"
+                                android:layout_marginLeft="20dip"
+                                android:layout_marginTop="5dip"
+                                android:focusable="false"
+                                android:text="Noodles like belt"
+                                android:textColor="@drawable/textcolor_selector"
+                                android:textSize="14dip" />
+
+                            <ImageView
+                                android:id="@+id/miantiao_next"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_alignParentRight="true"
+                                android:layout_centerVertical="true"
+                                android:layout_marginRight="20dip"
+                                android:duplicateParentState="true"
+                                android:src="@drawable/folklistnext_selector" />
+                        </RelativeLayout>
+
+                        <RelativeLayout
+                            android:id="@+id/guokui"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="10dip"
+                            android:layout_marginRight="10dip"
+                            android:layout_marginTop="8dip"
+                            android:background="@drawable/folklist_orange_selector"
+                            android:clickable="true"
+                            android:focusable="true" >
+
+                            <TextView
+                                android:id="@+id/tv_guokui"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="20dip"
+                                android:layout_marginTop="10dip"
+                                android:text="锅盔像锅盖"
+                                android:textColor="@drawable/textcolor_selector"
+                                android:textSize="17dip" />
+
+                            <TextView
+                                android:id="@+id/tv_guokui_en"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_below="@id/tv_guokui"
+                                android:layout_marginLeft="20dip"
+                                android:layout_marginTop="5dip"
+                                android:text="Guokui like pot"
+                                android:textColor="@drawable/textcolor_selector"
+                                android:textSize="14dip" />
+
+                            <ImageView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_alignParentRight="true"
+                                android:layout_centerVertical="true"
+                                android:layout_marginRight="20dip"
+                                android:clickable="true"
+                                android:duplicateParentState="true"
+                                android:focusable="false"
+                                android:src="@drawable/folklistnext_selector" />
+                        </RelativeLayout>
+
+                        <RelativeLayout
+                            android:id="@+id/lazi"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="10dip"
+                            android:layout_marginRight="10dip"
+                            android:layout_marginTop="8dip"
+                            android:background="@drawable/folklist_red_selector"
+                            android:clickable="true"
+                            android:focusable="true" >
+
+                            <TextView
+                                android:id="@+id/tv_lazi"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="20dip"
+                                android:layout_marginTop="10dip"
+                                android:text="辣子一道菜"
+                                android:textColor="@drawable/textcolor_selector"
+                                android:textSize="17dip" />
+
+                            <TextView
+                                android:id="@+id/tv_lazi_en"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_below="@id/tv_lazi"
+                                android:layout_marginLeft="20dip"
+                                android:layout_marginTop="5dip"
+                                android:text="Spicy dish"
+                                android:textColor="@drawable/textcolor_selector"
+                                android:textSize="14dip" />
+
+                            <ImageView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_alignParentRight="true"
+                                android:layout_centerVertical="true"
+                                android:layout_marginRight="20dip"
+                                android:clickable="true"
+                                android:duplicateParentState="true"
+                                android:focusable="false"
+                                android:src="@drawable/folklistnext_selector" />
+                        </RelativeLayout>
+
+                        <RelativeLayout
+                            android:id="@+id/wanpen"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="10dip"
+                            android:layout_marginRight="10dip"
+                            android:layout_marginTop="8dip"
+                            android:background="@drawable/folklist_blue_selector"
+                            android:clickable="true"
+                            android:focusable="true" >
+
+                            <TextView
+                                android:id="@+id/tv_wanpen"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="20dip"
+                                android:layout_marginTop="10dip"
+                                android:text="碗盆不分家"
+                                android:textColor="@drawable/textcolor_selector"
+                                android:textSize="17dip" />
+
+                            <TextView
+                                android:id="@+id/tv_wanpen_en"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_below="@id/tv_wanpen"
+                                android:layout_marginLeft="20dip"
+                                android:layout_marginTop="5dip"
+                                android:text="Bowls are not separated"
+                                android:textColor="@drawable/textcolor_selector"
+                                android:textSize="14dip" />
+
+                            <ImageView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_alignParentRight="true"
+                                android:layout_centerVertical="true"
+                                android:layout_marginRight="20dip"
+                                android:src="@drawable/folklistnext_selector" />
+                        </RelativeLayout>
+
+                        <RelativeLayout
+                            android:id="@+id/shoupa"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="10dip"
+                            android:layout_marginRight="10dip"
+                            android:layout_marginTop="8dip"
+                            android:background="@drawable/folklist_red_selector"
+                            android:clickable="true"
+                            android:focusable="true" >
+
+                            <TextView
+                                android:id="@+id/tv_shoupa"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="20dip"
+                                android:layout_marginTop="10dip"
+                                android:text="手帕头上戴"
+                                android:textColor="@drawable/textcolor_selector"
+                                android:textSize="17dip" />
+
+                            <TextView
+                                android:id="@+id/tv_shoupa_en"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_below="@id/tv_shoupa"
+                                android:layout_marginLeft="20dip"
+                                android:layout_marginTop="5dip"
+                                android:text="Handkerchief on his head"
+                                android:textColor="@drawable/textcolor_selector"
+                                android:textSize="14dip" />
+
+                            <ImageView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_alignParentRight="true"
+                                android:layout_centerVertical="true"
+                                android:layout_marginRight="20dip"
+                                android:clickable="true"
+                                android:duplicateParentState="true"
+                                android:focusable="false"
+                                android:src="@drawable/folklistnext_selector" />
+                        </RelativeLayout>
+
+                        <RelativeLayout
+                            android:id="@+id/fangzi"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="10dip"
+                            android:layout_marginRight="10dip"
+                            android:layout_marginTop="8dip"
+                            android:background="@drawable/folklist_orange_selector"
+                            android:clickable="true"
+                            android:focusable="true" >
+
+                            <TextView
+                                android:id="@+id/tv_fangzi"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="20dip"
+                                android:layout_marginTop="10dip"
+                                android:text="房子半边盖"
+                                android:textColor="@drawable/textcolor_selector"
+                                android:textSize="17dip" />
+
+                            <TextView
+                                android:id="@+id/tv_fangzi_en"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_below="@id/tv_fangzi"
+                                android:layout_marginLeft="20dip"
+                                android:layout_marginTop="5dip"
+                                android:text="The house half side cover"
+                                android:textColor="@drawable/textcolor_selector"
+                                android:textSize="14dip" />
+
+                            <ImageView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_alignParentRight="true"
+                                android:layout_centerVertical="true"
+                                android:layout_marginRight="20dip"
+                                android:clickable="true"
+                                android:duplicateParentState="true"
+                                android:focusable="false"
+                                android:src="@drawable/folklistnext_selector" />
+                        </RelativeLayout>
+
+                        <RelativeLayout
+                            android:id="@+id/xintianyou"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="10dip"
+                            android:layout_marginRight="10dip"
+                            android:layout_marginTop="8dip"
+                            android:background="@drawable/folklist_blue_selector"
+                            android:clickable="true"
+                            android:focusable="true" >
+
+                            <TextView
+                                android:id="@+id/tv_xintianyou"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="20dip"
+                                android:layout_marginTop="10dip"
+                                android:text="信天游"
+                                android:textColor="@drawable/textcolor_selector"
+                                android:textSize="17dip" />
+
+                            <TextView
+                                android:id="@+id/tv_xintianyou_en"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_below="@id/tv_xintianyou"
+                                android:layout_marginLeft="20dip"
+                                android:layout_marginTop="5dip"
+                                android:text="a kind of Shanxi local melody"
+                                android:textColor="@drawable/textcolor_selector"
+                                android:textSize="14dip" />
+
+                            <ImageView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_alignParentRight="true"
+                                android:layout_centerVertical="true"
+                                android:layout_marginRight="20dip"
+                                android:src="@drawable/folklistnext_selector" />
+                        </RelativeLayout>
+                    </LinearLayout>
+                </LinearLayout>
+
+                <include layout="@layout/slide_menu" />
+            </LinearLayout>
+        </com.baoji.jinlinggongshang.util.LockableHorizontalScrollView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/close_menu_linear"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_marginLeft="0dip"
+        android:layout_marginTop="0dip"
+        android:orientation="horizontal"
+        android:visibility="gone" >
+
+        <View
+            android:id="@+id/close_menu"
+            android:layout_width="65dip"
+            android:layout_height="fill_parent" >
+        </View>
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:clickable="false" >
+        </View>
+    </LinearLayout>
+
+</RelativeLayout>
