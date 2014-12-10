@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:id="@+id/id_title"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/topbar_bg" >
+
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_marginLeft="10dip"
+            android:text="@string/more"
+            android:textColor="#ffffff"
+            android:textSize="15.0dip" />
+
+        <Button
+            android:id="@+id/back"
+            android:layout_width="50dip"
+            android:layout_height="30dip"
+            android:layout_centerVertical="true"
+            android:layout_marginBottom="5dip"
+            android:layout_marginLeft="10dip"
+            android:layout_marginRight="3.0dip"
+            android:background="@drawable/btn_back_bg"
+            android:clickable="true"
+            android:gravity="center" />
+        
+        <TextView 
+            android:id="@+id/shaixuan"
+            android:text="筛选"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:clickable="true"
+            android:paddingRight="20dip"
+            android:textSize="14dip"
+            android:textStyle="bold"
+            android:textColor="@drawable/textcolor_selector03"/>
+    </RelativeLayout>
+
+    <com.baoji.jiuguijiu.ui.PullDownView
+        android:id="@+id/pull_down_view"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="@android:color/white"
+        android:paddingLeft="10dip"
+        android:paddingRight="10dip"
+        android:paddingTop="30dip" >
+    </com.baoji.jiuguijiu.ui.PullDownView>
+
+</LinearLayout>

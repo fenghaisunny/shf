@@ -1,0 +1,845 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/toplist"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/list01"
+        android:layout_width="match_parent"
+        android:layout_height="0dip"
+        android:layout_margin="5dip"
+        android:layout_weight="1.0"
+        android:orientation="horizontal" >
+
+        <RelativeLayout
+            android:id="@+id/jingxuan_1"
+            android:layout_width="0dip"
+            android:layout_height="match_parent"
+            android:layout_margin="5dip"
+            android:layout_weight="1.0"
+            android:background="@drawable/boder"
+            android:clickable="true"
+            android:padding="0.1dip" >
+
+            <ImageView
+                android:id="@+id/jingxuan1_image"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_centerInParent="true" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:background="@color/grey_bantouming" >
+
+                <TextView
+                    android:id="@+id/jingxuan1_title"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:text="酒品"
+                    android:textColor="@color/white"
+                    android:textSize="12dip" />
+
+                <TextView
+                    android:id="@+id/jingxuan1_price"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:text="价格"
+                    android:textColor="@color/red"
+                    android:textSize="12dip" />
+            </RelativeLayout>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/jingxuan_2"
+            android:layout_width="0dip"
+            android:layout_height="match_parent"
+            android:layout_margin="5dip"
+            android:layout_weight="1.0"
+            android:background="@drawable/boder"
+            android:clickable="true"
+            android:padding="0.1dip" >
+
+            <ImageView
+                android:id="@+id/jingxuan2_image"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_centerInParent="true" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:background="@color/grey_bantouming" >
+
+                <TextView
+                    android:id="@+id/jingxuan2_title"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:text="酒品"
+                    android:textColor="@color/white"
+                    android:textSize="12dip" />
+
+                <TextView
+                    android:id="@+id/jingxuan2_price"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:text="价格"
+                    android:textColor="@color/red"
+                    android:textSize="12dip" />
+            </RelativeLayout>
+        </RelativeLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/list02"
+        android:layout_width="match_parent"
+        android:layout_height="0dip"
+        android:layout_margin="5dip"
+        android:layout_weight="1.0"
+        android:orientation="horizontal" >
+
+        <RelativeLayout
+            android:id="@+id/jingxuan_3"
+            android:layout_width="0dip"
+            android:layout_height="match_parent"
+            android:layout_margin="5dip"
+            android:layout_weight="1.0"
+            android:background="@drawable/boder"
+            android:clickable="true"
+            android:padding="0.1dip" >
+
+            <ImageView
+                android:id="@+id/jingxuan3_image"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_centerInParent="true" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:background="@color/grey_bantouming" >
+
+                <TextView
+                    android:id="@+id/jingxuan3_title"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:text="酒品"
+                    android:textColor="@color/white"
+                    android:textSize="12dip" />
+
+                <TextView
+                    android:id="@+id/jingxuan3_price"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:text="价格"
+                    android:textColor="@color/red"
+                    android:textSize="12dip" />
+            </RelativeLayout>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/jingxuan_4"
+            android:layout_width="0dip"
+            android:layout_height="match_parent"
+            android:layout_margin="5dip"
+            android:layout_weight="1.0"
+            android:background="@drawable/boder"
+            android:clickable="true"
+            android:padding="0.1dip" >
+
+            <ImageView
+                android:id="@+id/jingxuan4_image"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_centerInParent="true" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:background="@color/grey_bantouming" >
+
+                <TextView
+                    android:id="@+id/jingxuan4_title"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:text="酒品"
+                    android:textColor="@color/white"
+                    android:textSize="12dip" />
+
+                <TextView
+                    android:id="@+id/jingxuan4_price"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:text="价格"
+                    android:textColor="@color/red"
+                    android:textSize="12dip" />
+            </RelativeLayout>
+        </RelativeLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/list03"
+        android:layout_width="match_parent"
+        android:layout_height="0dip"
+        android:layout_margin="5dip"
+        android:layout_weight="1.0"
+        android:orientation="horizontal" >
+
+        <RelativeLayout
+            android:id="@+id/jingxuan_5"
+            android:layout_width="0dip"
+            android:layout_height="match_parent"
+            android:layout_margin="5dip"
+            android:layout_weight="1.0"
+            android:background="@drawable/boder"
+            android:clickable="true"
+            android:padding="0.1dip" >
+
+            <ImageView
+                android:id="@+id/jingxuan5_image"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_centerInParent="true" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:background="@color/grey_bantouming" >
+
+                <TextView
+                    android:id="@+id/jingxuan5_title"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:text="酒品"
+                    android:textColor="@color/white"
+                    android:textSize="12dip" />
+
+                <TextView
+                    android:id="@+id/jingxuan5_price"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:text="价格"
+                    android:textColor="@color/red"
+                    android:textSize="12dip" />
+            </RelativeLayout>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/jingxuan_6"
+            android:layout_width="0dip"
+            android:layout_height="match_parent"
+            android:layout_margin="5dip"
+            android:layout_weight="1.0"
+            android:background="@drawable/boder"
+            android:clickable="true"
+            android:padding="0.1dip" >
+
+            <ImageView
+                android:id="@+id/jingxuan6_image"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_centerInParent="true" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:background="@color/grey_bantouming" >
+
+                <TextView
+                    android:id="@+id/jingxuan6_title"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:text="酒品"
+                    android:textColor="@color/white"
+                    android:textSize="12dip" />
+
+                <TextView
+                    android:id="@+id/jingxuan6_price"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:text="价格"
+                    android:textColor="@color/red"
+                    android:textSize="12dip" />
+            </RelativeLayout>
+        </RelativeLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/list04"
+        android:layout_width="match_parent"
+        android:layout_height="0dip"
+        android:layout_margin="5dip"
+        android:layout_weight="1.0"
+        android:orientation="horizontal" >
+
+        <RelativeLayout
+            android:id="@+id/jingxuan_7"
+            android:layout_width="0dip"
+            android:layout_height="match_parent"
+            android:layout_margin="5dip"
+            android:layout_weight="1.0"
+            android:background="@drawable/boder"
+            android:clickable="true"
+            android:padding="0.1dip" >
+
+            <ImageView
+                android:id="@+id/jingxuan7_image"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_centerInParent="true" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:background="@color/grey_bantouming" >
+
+                <TextView
+                    android:id="@+id/jingxuan7_title"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:text="酒品"
+                    android:textColor="@color/white"
+                    android:textSize="12dip" />
+
+                <TextView
+                    android:id="@+id/jingxuan7_price"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:text="价格"
+                    android:textColor="@color/red"
+                    android:textSize="12dip" />
+            </RelativeLayout>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/jingxuan_8"
+            android:layout_width="0dip"
+            android:layout_height="match_parent"
+            android:layout_margin="5dip"
+            android:layout_weight="1.0"
+            android:background="@drawable/boder"
+            android:clickable="true"
+            android:padding="0.1dip" >
+
+            <ImageView
+                android:id="@+id/jingxuan8_image"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_centerInParent="true" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:background="@color/grey_bantouming" >
+
+                <TextView
+                    android:id="@+id/jingxuan8_title"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:text="酒品"
+                    android:textColor="@color/white"
+                    android:textSize="12dip" />
+
+                <TextView
+                    android:id="@+id/jingxuan8_price"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:text="价格"
+                    android:textColor="@color/red"
+                    android:textSize="12dip" />
+            </RelativeLayout>
+        </RelativeLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/list05"
+        android:layout_width="match_parent"
+        android:layout_height="0dip"
+        android:layout_margin="5dip"
+        android:layout_weight="1.0"
+        android:orientation="horizontal" >
+
+        <RelativeLayout
+            android:id="@+id/jingxuan_9"
+            android:layout_width="0dip"
+            android:layout_height="match_parent"
+            android:layout_margin="5dip"
+            android:layout_weight="1.0"
+            android:background="@drawable/boder"
+            android:clickable="true"
+            android:padding="0.1dip" >
+
+            <ImageView
+                android:id="@+id/jingxuan9_image"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_centerInParent="true" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:background="@color/grey_bantouming" >
+
+                <TextView
+                    android:id="@+id/jingxuan9_title"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:text="酒品"
+                    android:textColor="@color/white"
+                    android:textSize="12dip" />
+
+                <TextView
+                    android:id="@+id/jingxuan9_price"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:text="价格"
+                    android:textColor="@color/red"
+                    android:textSize="12dip" />
+            </RelativeLayout>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/jingxuan_10"
+            android:layout_width="0dip"
+            android:layout_height="match_parent"
+            android:layout_margin="5dip"
+            android:layout_weight="1.0"
+            android:background="@drawable/boder"
+            android:clickable="true"
+            android:padding="0.1dip" >
+
+            <ImageView
+                android:id="@+id/jingxuan10_image"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_centerInParent="true" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:background="@color/grey_bantouming" >
+
+                <TextView
+                    android:id="@+id/jingxuan10_title"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:text="酒品"
+                    android:textColor="@color/white"
+                    android:textSize="12dip" />
+
+                <TextView
+                    android:id="@+id/jingxuan10_price"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:text="价格"
+                    android:textColor="@color/red"
+                    android:textSize="12dip" />
+            </RelativeLayout>
+        </RelativeLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/list06"
+        android:layout_width="match_parent"
+        android:layout_height="0dip"
+        android:layout_margin="5dip"
+        android:layout_weight="1.0"
+        android:orientation="horizontal" >
+
+        <RelativeLayout
+            android:id="@+id/jingxuan_11"
+            android:layout_width="0dip"
+            android:layout_height="match_parent"
+            android:layout_margin="5dip"
+            android:layout_weight="1.0"
+            android:background="@drawable/boder"
+            android:clickable="true"
+            android:padding="0.1dip" >
+
+            <ImageView
+                android:id="@+id/jingxuan11_image"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_centerInParent="true" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:background="@color/grey_bantouming" >
+
+                <TextView
+                    android:id="@+id/jingxuan11_title"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:text="酒品"
+                    android:textColor="@color/white"
+                    android:textSize="12dip" />
+
+                <TextView
+                    android:id="@+id/jingxuan11_price"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:text="价格"
+                    android:textColor="@color/red"
+                    android:textSize="12dip" />
+            </RelativeLayout>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/jingxuan_12"
+            android:layout_width="0dip"
+            android:layout_height="match_parent"
+            android:layout_margin="5dip"
+            android:layout_weight="1.0"
+            android:background="@drawable/boder"
+            android:clickable="true"
+            android:padding="0.1dip" >
+
+            <ImageView
+                android:id="@+id/jingxuan12_image"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_centerInParent="true" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:background="@color/grey_bantouming" >
+
+                <TextView
+                    android:id="@+id/jingxuan12_title"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:text="酒品"
+                    android:textColor="@color/white"
+                    android:textSize="12dip" />
+
+                <TextView
+                    android:id="@+id/jingxuan12_price"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:text="价格"
+                    android:textColor="@color/red"
+                    android:textSize="12dip" />
+            </RelativeLayout>
+        </RelativeLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/list07"
+        android:layout_width="match_parent"
+        android:layout_height="0dip"
+        android:layout_margin="5dip"
+        android:layout_weight="1.0"
+        android:orientation="horizontal" >
+
+        <RelativeLayout
+            android:id="@+id/jingxuan_13"
+            android:layout_width="0dip"
+            android:layout_height="match_parent"
+            android:layout_margin="5dip"
+            android:layout_weight="1.0"
+            android:background="@drawable/boder"
+            android:clickable="true"
+            android:padding="0.1dip" >
+
+            <ImageView
+                android:id="@+id/jingxuan13_image"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_centerInParent="true" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:background="@color/grey_bantouming" >
+
+                <TextView
+                    android:id="@+id/jingxuan13_title"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:text="酒品"
+                    android:textColor="@color/white"
+                    android:textSize="12dip" />
+
+                <TextView
+                    android:id="@+id/jingxuan13_price"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:text="价格"
+                    android:textColor="@color/red"
+                    android:textSize="12dip" />
+            </RelativeLayout>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/jingxuan_14"
+            android:layout_width="0dip"
+            android:layout_height="match_parent"
+            android:layout_margin="5dip"
+            android:layout_weight="1.0"
+            android:background="@drawable/boder"
+            android:clickable="true"
+            android:padding="0.1dip" >
+
+            <ImageView
+                android:id="@+id/jingxuan14_image"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_centerInParent="true" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:background="@color/grey_bantouming" >
+
+                <TextView
+                    android:id="@+id/jingxuan14_title"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:text="酒品"
+                    android:textColor="@color/white"
+                    android:textSize="12dip" />
+
+                <TextView
+                    android:id="@+id/jingxuan14_price"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:text="价格"
+                    android:textColor="@color/red"
+                    android:textSize="12dip" />
+            </RelativeLayout>
+        </RelativeLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/list08"
+        android:layout_width="match_parent"
+        android:layout_height="0dip"
+        android:layout_margin="5dip"
+        android:layout_weight="1.0"
+        android:orientation="horizontal" >
+
+        <RelativeLayout
+            android:id="@+id/jingxuan_15"
+            android:layout_width="0dip"
+            android:layout_height="match_parent"
+            android:layout_margin="5dip"
+            android:layout_weight="1.0"
+            android:background="@drawable/boder"
+            android:clickable="true"
+            android:padding="0.1dip" >
+
+            <ImageView
+                android:id="@+id/jingxuan15_image"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_centerInParent="true" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:background="@color/grey_bantouming" >
+
+                <TextView
+                    android:id="@+id/jingxuan15_title"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:text="酒品"
+                    android:textColor="@color/white"
+                    android:textSize="12dip" />
+
+                <TextView
+                    android:id="@+id/jingxuan15_price"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:text="价格"
+                    android:textColor="@color/red"
+                    android:textSize="12dip" />
+            </RelativeLayout>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/jingxuan_16"
+            android:layout_width="0dip"
+            android:layout_height="match_parent"
+            android:layout_margin="5dip"
+            android:layout_weight="1.0"
+            android:background="@drawable/boder"
+            android:clickable="true"
+            android:padding="0.1dip" >
+
+            <ImageView
+                android:id="@+id/jingxuan16_image"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_centerInParent="true" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:background="@color/grey_bantouming" >
+
+                <TextView
+                    android:id="@+id/jingxuan16_title"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:text="酒品"
+                    android:textColor="@color/white"
+                    android:textSize="12dip" />
+
+                <TextView
+                    android:id="@+id/jingxuan16_price"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:text="价格"
+                    android:textColor="@color/red"
+                    android:textSize="12dip" />
+            </RelativeLayout>
+        </RelativeLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/list09"
+        android:layout_width="match_parent"
+        android:layout_height="0dip"
+        android:layout_margin="5dip"
+        android:layout_weight="1.0"
+        android:orientation="horizontal" >
+
+        <RelativeLayout
+            android:id="@+id/jingxuan_17"
+            android:layout_width="0dip"
+            android:layout_height="match_parent"
+            android:layout_margin="5dip"
+            android:layout_weight="1.0"
+            android:background="@drawable/boder"
+            android:clickable="true"
+            android:padding="0.1dip" >
+
+            <ImageView
+                android:id="@+id/jingxuan17_image"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_centerInParent="true" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:background="@color/grey_bantouming" >
+
+                <TextView
+                    android:id="@+id/jingxuan17_title"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:text="酒品"
+                    android:textColor="@color/white"
+                    android:textSize="12dip" />
+
+                <TextView
+                    android:id="@+id/jingxuan17_price"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:text="价格"
+                    android:textColor="@color/red"
+                    android:textSize="12dip" />
+            </RelativeLayout>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/jingxuan_18"
+            android:layout_width="0dip"
+            android:layout_height="match_parent"
+            android:layout_margin="5dip"
+            android:layout_weight="1.0"
+            android:background="@drawable/boder"
+            android:clickable="true"
+            android:padding="0.1dip" >
+
+            <ImageView
+                android:id="@+id/jingxuan18_image"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_centerInParent="true" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:background="@color/grey_bantouming" >
+
+                <TextView
+                    android:id="@+id/jingxuan18_title"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:text="酒品"
+                    android:textColor="@color/white"
+                    android:textSize="12dip" />
+
+                <TextView
+                    android:id="@+id/jingxuan18_price"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:text="价格"
+                    android:textColor="@color/red"
+                    android:textSize="12dip" />
+            </RelativeLayout>
+        </RelativeLayout>
+    </LinearLayout>
+
+</LinearLayout>

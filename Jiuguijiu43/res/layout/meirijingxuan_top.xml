@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <RelativeLayout
+            android:id="@+id/jingxuan_1"
+            android:layout_width="0dip"
+            android:layout_height="match_parent"
+            android:layout_margin="5dip"
+            android:layout_weight="2.0"
+            android:background="@drawable/boder"
+            android:clickable="true"
+            android:padding="0.1dip" >
+
+            <ImageView
+                android:id="@+id/jingxuan1_image"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_centerInParent="true" />
+
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:background="@color/grey_bantouming" >
+
+                <TextView
+                    android:id="@+id/jingxuan1_title"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:text="酒品"
+                    android:textColor="@color/white"
+                    android:textSize="12dip" />
+
+                <TextView
+                    android:id="@+id/jingxuan1_price"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:text="酒快送价"
+                    android:textColor="@color/red"
+                    android:textSize="12dip" />
+            </RelativeLayout>
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="0dip"
+            android:layout_height="match_parent"
+            android:layout_margin="8dip"
+            android:layout_weight="1.0"
+            android:orientation="vertical" >
+
+            <RelativeLayout
+                android:id="@+id/jingxuan_2"
+                android:layout_width="match_parent"
+                android:layout_height="0dip"
+                android:layout_margin="5dip"
+                android:layout_weight="1.0"
+                android:background="@drawable/boder"
+                android:clickable="true"
+                android:padding="0.1dip" >
+
+                <ImageView
+                    android:id="@+id/jingxuan2_image"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_centerInParent="true" />
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:background="@color/grey_bantouming" >
+
+                    <TextView
+                        android:id="@+id/jingxuan2_title"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        android:text="酒品"
+                        android:textColor="@color/white"
+                        android:textSize="12dip" />
+
+                    <TextView
+                        android:id="@+id/jingxuan2_price"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:text="酒快送价"
+                        android:textColor="@color/red"
+                        android:textSize="12dip" />
+                </RelativeLayout>
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/jingxuan_3"
+                android:layout_width="match_parent"
+                android:layout_height="0dip"
+                android:layout_margin="5dip"
+                android:layout_weight="1.0"
+                android:background="@drawable/boder"
+                android:clickable="true"
+                android:padding="0.1dip" >
+
+                <ImageView
+                    android:id="@+id/jingxuan3_image"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_centerInParent="true" />
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:background="@color/grey_bantouming" >
+
+                    <TextView
+                        android:id="@+id/jingxuan3_title"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        android:text="酒品"
+                        android:textColor="@color/white"
+                        android:textSize="12dip" />
+
+                    <TextView
+                        android:id="@+id/jingxuan3_price"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:text="酒快送价"
+                        android:textColor="@color/red"
+                        android:textSize="12dip" />
+                </RelativeLayout>
+            </RelativeLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>
